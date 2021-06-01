@@ -1,0 +1,83 @@
+Script started on 2021-05-13 15:35:22+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker run -it --name data debian / bin/bash
+root@7937f9ff9832:/# [Kroot@7937f9ff9832:/# mkdir artifacts
+root@7937f9ff9832:/# cd artifacts
+root@7937f9ff9832:/artifacts# exit
+exit
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker cp MLE_Training/MOd[K[Kodule_4/art ifacts/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-MLE_Training/Module_4/artifacts/[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[CrMLE_Training/Module_4/artifacts/[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C MLE_Training/Module_4/artifacts/[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[K data:artifacts
+unknown shorthand flag: 'r' in -r
+See 'docker cp --help'.
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker cp help
+"docker cp" requires exactly 2 arguments.
+See 'docker cp --help'.
+
+Usage:  docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
+	docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
+
+Copy files/folders between a container and the local filesystem
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker cp help-r MLE_Training/Module_4/artifacts data:artifacts[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr MLE_Training/Module_4/ar[1P[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C MLE_Training/Module_4/art[1P[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C
+
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker start data
+data
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker exec -it data /bin/bash
+root@7937f9ff9832:/# [Kroot@7937f9ff9832:/# ca d artifacts/
+root@7937f9ff9832:/artifacts# ls
+artifacts
+root@7937f9ff9832:/artifacts# cd artifacts/
+root@7937f9ff9832:/artifacts/artifacts# ls
+decision_tree.pkl  imputer.pkl	linear_regression.pkl  random_forest_grid_search.pkl  random_forest_random_search.pkl
+root@7937f9ff9832:/artifacts/artifacts# cp decision_tree.pkl  imputer.pkl  linear_regression.pkl  random_forest_grid_searrch.pkl  random_forest_random_search.pkl ../
+root@7937f9ff9832:/artifacts/artifacts# ls
+decision_tree.pkl  imputer.pkl	linear_regression.pkl  random_forest_grid_search.pkl  random_forest_random_search.pkl
+root@7937f9ff9832:/artifacts/artifacts# cd ..
+root@7937f9ff9832:/artifacts# ls
+artifacts	   imputer.pkl		  random_forest_grid_search.pkl
+decision_tree.pkl  linear_regression.pkl  random_forest_random_search.pkl
+root@7937f9ff9832:/artifacts# rm artifacts/ 
+rm: cannot remove 'artifacts': Is a directory
+root@7937f9ff9832:/artifacts# rm artifacts[1@-[1@r[1@ 
+root@7937f9ff9832:/artifacts# ls
+decision_tree.pkl  imputer.pkl	linear_regression.pkl  random_forest_grid_search.pkl  random_forest_random_search.pkl
+root@7937f9ff9832:/artifacts# ls -lrt
+total 265260
+-rwxr-xr-x 1 root root       781 May 13 10:15 linear_regression.pkl
+-rwxr-xr-x 1 root root       485 May 13 10:15 imputer.pkl
+-rwxr-xr-x 1 root root   2015461 May 13 10:15 decision_tree.pkl
+-rwxr-xr-x 1 root root  38522988 May 13 10:15 random_forest_grid_search.pkl
+-rwxr-xr-x 1 root root 231070517 May 13 10:15 random_forest_random_search.pkl
+root@7937f9ff9832:/artifacts# exit
+exit
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker commit -m=""D"o"c"k"e"r" "A"s"s"i"g"n"m"e"n" [A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct"[C data MLE_Training
+invalid reference format: repository name must be lowercase
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker commit -m="Docker Assignment" data MLE_Training[K[K[K[K[K[K[K[K[K[K[K[Kmle_training
+sha256:4990910e748c33742e3d8120f3aec2fe18819b94cdc825201399742028f4a925
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker login
+chetanAuthenticating with existing credentials...
+^C
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker login
+Authenticating with existing credentials...
+Login Succeeded
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker push cetanjalluri/hetanjalluri/[C[C[C[C[C[C[C[C[C[C[C[Cmle_train ing:latest
+The push refers to repository [docker.io/chetanjalluri/mle_training]
+An image does not exist locally with the tag: chetanjalluri/mle_training
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker push chetanjalluri/mle_training:latest[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_trainin[1Pg:latest[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training[1P:latest[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:[1Platest[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:l[1Patest[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:la[1Ptest[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:lat[1Pest[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:late[1Pst[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:lates[1Pt[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:latest[K[A(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmle_training:latest [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmle_training:latest
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmle_training:latest[1Pmle_training:latest[1Pmle_training:latest
+The push refers to repository [docker.io/library/mle_training]
+
+[1A[2Kf5a8814c88fa: Preparing [1B
+[1A[2K688e187d6c79: Preparing [1Bdenied: requested access to the resource is denied
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ docker login
+Authenticating with existing credentials...
+Login Succeeded
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ userb[Kname
+username: command not found
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ usernamedocker loginpush mle_training:latest
+The push refers to repository [docker.io/library/mle_training]
+
+[1A[2Kf5a8814c88fa: Preparing [1B
+[1A[2K688e187d6c79: Preparing [1Bdenied: requested access to the resource is denied
+(base) ]0;chetan@LAPTOP-7U5T7RSD: /mnt/c/Users/cheta/Documents/Data Science/Assignments[01;32mchetan@LAPTOP-7U5T7RSD[00m:[01;34m/mnt/c/Users/cheta/Documents/Data Science/Assignments[00m$ exit
+exit
+
+Script done on 2021-05-13 16:05:01+05:30 [COMMAND_EXIT_CODE="1"]
